@@ -1,0 +1,10 @@
+#gameScreen {
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    display: block;
+    margin: 40px auto;
+}
+#ball {
+    display: none;
+}
