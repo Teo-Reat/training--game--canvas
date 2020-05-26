@@ -1,4 +1,4 @@
-import Brick from './brick.js'
+import Brick from '../classes/brick.js'
 
 export function buildLevel (game, level) {
   let bricks = []
@@ -19,7 +19,10 @@ export function buildLevel (game, level) {
 
 export const level1 = [
   [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
   [1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
   [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
   [1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
 ]
